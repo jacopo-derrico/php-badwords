@@ -8,10 +8,11 @@
 <body>
     <h3>Choose a word to censor and a text</h3>
 
-    <form action="result.php" method="POST">
+    <form action="result.php" method="GET">
         <input name="word" type="text" placeholder="Word to censor">
         <br>
         <textarea name="text" rows="8" cols="50" placeholder="Text"></textarea>
+        <br>
         <input type="submit">
     </form>
 </body>
