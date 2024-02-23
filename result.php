@@ -3,6 +3,7 @@
     $text = $_GET["text"];
     $textLength = strlen($text);
     $censoredText = str_replace($word, "***", $text);
+    $censoredTextLength = strlen($censoredText);
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +16,10 @@
 <body>
     <h4>Here is your text</h4>
     <p>Length: <?php echo $textLength ?></p>
+    <p><?php echo $text ?></p>
+    <hr>
+    <h4>Here is your censored text</h4>
+    <p>Length: <?php echo $censoredTextLength ?></p>
     <p><?php echo $censoredText ?></p>
 </body>
 </html>
