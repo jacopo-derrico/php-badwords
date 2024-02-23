@@ -2,7 +2,7 @@
     $word = $_GET["word"];
     $text = $_GET["text"];
     $textLength = strlen($text);
-    $censoredText = str_replace($word, "***", $text)
+    $censoredText = str_replace($word, "***", $text);
 ?>
 
 <!DOCTYPE html>
