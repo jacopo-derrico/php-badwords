@@ -6,6 +6,13 @@
     <title>Censorship</title>
 </head>
 <body>
-    
+    <h3>Choose a word to censor and a text</h3>
+
+    <form action="result.php" method="POST">
+        <input name="word" type="text" placeholder="Word to censor">
+        <br>
+        <textarea name="text" rows="8" cols="50" placeholder="Text"></textarea>
+        <input type="submit">
+    </form>
 </body>
 </html>
