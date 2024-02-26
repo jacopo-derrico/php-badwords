@@ -1,6 +1,6 @@
 <?php 
-    $word = $_GET["word"];
-    $text = $_GET["text"];
+    $word = $_POST["word"];
+    $text = $_POST["text"];
     $textLength = strlen($text);
     $censoredText = str_replace($word, "***", $text);
     $censoredTextLength = strlen($censoredText);
